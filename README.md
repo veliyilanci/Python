@@ -7,3 +7,4 @@ Kalın_ince.py: Türkçedeki ünlü harfler dilin ağız içerisindeki hareketin
 
 Mükemmel_Sayı.py: Kendisi dışında tüm pozitif bölenlerinin toplamı kendisine eşit olan sayıya mükemmel sayı denir. Örneğin 28’in bölenleri olan 1, 2, 4, 7 ve 14’ün toplamı 28 olduğu için 28 mükemmel sayıdır. Python’da kullanıcının girmiş olduğu bir sayının mükemmel sayı olup olmaıdığını test etmek için bu kod kullanılabilir.
 
+Palindrom.py: Palindrom, tersiyle yazımı aynı olan kelimedir. En basit örnek ile “Küçük”.kelimesi tersden de düzden de aynı şekilde yazılabilir. Kullanıcının girmiş olduğu kelimenin palindrom olup olmadığı Python programı ile bu kod ile tespit edilebilir.
