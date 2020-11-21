@@ -14,3 +14,5 @@ Mükemmel_Sayı.py: Kendisi dışında tüm pozitif bölenlerinin toplamı kendi
 Palindrom.py: Palindrom, tersiyle yazımı aynı olan kelimedir. En basit örnek ile “Küçük”.kelimesi tersden de düzden de aynı şekilde yazılabilir. Kullanıcının girmiş olduğu kelimenin palindrom olup olmadığı Python programı ile bu kod ile tespit edilebilir.
 
 Sayı_Tahmin.py: Bu kod, 1 ile 100 arasında elde edilen rassal sayının kullanıcı tarafından tahmin edilemesine dayanmaktadır. Tahmin hakkı beştir.
+
+Vücut_Kitle.py: Bu kod ile cm cinsinden girilen boy uzunluğu ve kg cinsinden tanımlanan vücut ağırlığı kullanılarak, kullanıcının vücut kitle indeksi hesaplanır.
