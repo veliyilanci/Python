@@ -3,6 +3,8 @@ Bu sayfada Python ile yaptığım bazı basit uygulamalar bulunuyor. Özellikle 
 
 Altın_Oran.py: Fibonacci serisi; her sayının kendinden önceki iki sayının toplanmasıyla elde edilen bir seridir. Örn: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144. Altın oran ise; bir bütünün parçaları arasında gözlemlenen, uyum açısından en uygun boyutları verdiği sanılan geometrik ve sayısal bir oran değeridir. İki ardışık Fibonacci sayısının oranı gözlem sayısı arttıkça altın orana yani “1,6180….” değerine yakınsamaktadır. 
 
+Aylık_Takvim.py: İçinde bulunan yılın, aylık takvimini veren koddur.
+
 Bölünen.py: Kullanıcının belirlemiş olduğu bir aralıkta, verdiği bölene tam bölünen sayıların çıktısını veren bir koddur.
 
 Faktöriyel.py: n, 1 veya 1'den büyük bir sayı olmak üzere 1'den n'e kadar olan doğal sayıların çarpımına n faktöriyel denilir ve bu işlem n! şeklinde gösterilir. Bu kodla verilen herhangi bir doğal sayının faktöriyeli elde edilir.
