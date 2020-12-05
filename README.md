@@ -7,6 +7,8 @@ Bu sayfada Python ile yaptığım bazı basit uygulamalar bulunuyor. Özellikle 
 
 <b>Bölünen.py:</b> Kullanıcının belirlemiş olduğu bir aralıkta, verdiği bölene tam bölünen sayıların çıktısını veren bir koddur.
 
+<b>Bul_Karayi.py</b> Masada biri kara, ikisi kırmızı 3 kart bulunmaktadır. Kullanıcının seçmiş olduğu (1,2 veya 3 numaralı) kartın kara olup olmadığını gösteren küçük bir oyun.
+
 <b>Faktöriyel.py:</b> n, 1 veya 1'den büyük bir sayı olmak üzere 1'den n'e kadar olan doğal sayıların çarpımına n faktöriyel denilir ve bu işlem n! şeklinde gösterilir. Bu kodla verilen herhangi bir doğal sayının faktöriyeli elde edilir.
 
 <b>Kalın_ince.py:</b> Türkçedeki ünlü harfler dilin ağız içerisindeki hareketine göre kalın ve ince olmak üzere ikiye ayrılmaktadır. Kalın ünlü harfler a,ı,o ve u iken ince ünlü harfler; e,i, ö ve ü’dür. Bu bilgiler ışığı altında kullanıcının girmiş olduğu kelimedeki kalın ve ince ünlü harf sayısını bu kodla elde edebilirsiniz.
