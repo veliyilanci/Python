@@ -1,3 +1,8 @@
+""" Turner (2020)'nin çalışmasından yararlanarak, %1 ve %5 anlamlılık düzeylerinde, 1-5 arasında bağımsız değişken için
+istenilen gözlem sayısında Durbin-Watson alt ve üst kritik değerlerini bu kodla elde etmek mümkündür.
+
+Turner, P. (2020). Critical values for the Durbin-Watson test in large samples. Applied Economics Letters, 27(18), 1495-1499. """
+
 def Durbin_watson(anlamlilik, bagimsizd, gozlem):
     if anlamlilik == 5 and bagimsizd ==1 and gozlems > 0:
         altbeta1=-3.26916
