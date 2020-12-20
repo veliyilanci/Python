@@ -1,10 +1,9 @@
-""" Turner (2020)'nin çalışmasından yararlanarak, %1 ve %5 anlamlılık düzeylerinde, 1-5 arasında bağımsız değişken için
-istenilen gözlem sayısında Durbin-Watson alt ve üst kritik değerlerini bu kodla elde etmek mümkündür.
+""" Turner (2020)'nin çalışmasından yararlanarak, %1 ve %5 anlamlılık düzeylerinde, 1-5 arasında bağımsız değişken için istenilen gözlem sayısında Durbin-Watson alt ve üst kritik değerlerini bu kodla elde etmek mümkündür.
 
 Turner, P. (2020). Critical values for the Durbin-Watson test in large samples. Applied Economics Letters, 27(18), 1495-1499. """
 
-def Durbin_watson(anlamlilik, bagimsizd, gozlem):
-    if anlamlilik == 5 and bagimsizd ==1 and gozlems > 0:
+def Durbin_watson(anlamlilik, bagimsizdegisken, gozlemsayisi):
+    if anlamlilik == 5 and bagimsizdegisken ==1 and gozlemsayisi > 0:
         altbeta1=-3.26916
         altbeta2=-2.21789
         altbeta3=2.931711
@@ -13,9 +12,9 @@ def Durbin_watson(anlamlilik, bagimsizd, gozlem):
         ustbeta2=1.917299
         ustbeta3=1.830633
         ustbeta4=10.64619
-        dw1 = float(2 + (altbeta1/(gozlems**0.5)) + (altbeta2/gozlems) + (altbeta3/(gozlems**1.5)) +(altbeta4/(gozlems**2)))
-        dw2 = float(2 + (ustbeta1/(gozlems**0.5)) + (ustbeta2/gozlems) + (ustbeta3/(gozlems**1.5)) +(ustbeta4/(gozlems**2)))
-    elif anlamlilik == 5 and bagimsizd ==2 and gozlems > 0:
+        dw1 = float(2 + (altbeta1/(gozlemsayisi**0.5)) + (altbeta2/gozlemsayisi) + (altbeta3/(gozlemsayisi**1.5)) +(altbeta4/(gozlemsayisi**2)))
+        dw2 = float(2 + (ustbeta1/(gozlemsayisi**0.5)) + (ustbeta2/gozlemsayisi) + (ustbeta3/(gozlemsayisi**1.5)) +(ustbeta4/(gozlemsayisi**2)))
+    elif anlamlilik == 5 and bagimsizdegisken ==2 and gozlemsayisi > 0:
         altbeta1=-3.3121
         altbeta2=-3.33254
         altbeta3=-3.63217
@@ -24,9 +23,9 @@ def Durbin_watson(anlamlilik, bagimsizd, gozlem):
         ustbeta2=4.017121
         ustbeta3=-0.17134
         ustbeta4=28.01835   
-        dw1 = float(2 + (altbeta1/(gozlems**0.5)) + (altbeta2/gozlems) + (altbeta3/(gozlems**1.5)) +(altbeta4/(gozlems**2)))
-        dw2 = float(2 + (ustbeta1/(gozlems**0.5)) + (ustbeta2/gozlems) + (ustbeta3/(gozlems**1.5)) +(ustbeta4/(gozlems**2)))
-    elif anlamlilik == 5 and bagimsizd ==3 and gozlems > 0:
+        dw1 = float(2 + (altbeta1/(gozlemsayisi**0.5)) + (altbeta2/gozlemsayisi) + (altbeta3/(gozlemsayisi**1.5)) +(altbeta4/(gozlemsayisi**2)))
+        dw2 = float(2 + (ustbeta1/(gozlemsayisi**0.5)) + (ustbeta2/gozlemsayisi) + (ustbeta3/(gozlemsayisi**1.5)) +(ustbeta4/(gozlemsayisi**2)))
+    elif anlamlilik == 5 and bagimsizdegisken ==3 and gozlemsayisi > 0:
         altbeta1=-3.37284
         altbeta2=-3.98877
         altbeta3=-14.2457
@@ -35,9 +34,9 @@ def Durbin_watson(anlamlilik, bagimsizd, gozlem):
         ustbeta2=5.005001
         ustbeta3=4.19282
         ustbeta4=39.3574
-        dw1 = float(2 + (altbeta1/(gozlems**0.5)) + (altbeta2/gozlems) + (altbeta3/(gozlems**1.5)) +(altbeta4/(gozlems**2)))
-        dw2 = float(2 + (ustbeta1/(gozlems**0.5)) + (ustbeta2/gozlems) + (ustbeta3/(gozlems**1.5)) +(ustbeta4/(gozlems**2)))
-    elif anlamlilik == 5 and bagimsizd ==4 and gozlems > 0:
+        dw1 = float(2 + (altbeta1/(gozlemsayisi**0.5)) + (altbeta2/gozlemsayisi) + (altbeta3/(gozlemsayisi**1.5)) +(altbeta4/(gozlemsayisi**2)))
+        dw2 = float(2 + (ustbeta1/(gozlemsayisi**0.5)) + (ustbeta2/gozlemsayisi) + (ustbeta3/(gozlemsayisi**1.5)) +(ustbeta4/(gozlemsayisi**2)))
+    elif anlamlilik == 5 and bagimsizdegisken ==4 and gozlemsayisi > 0:
         altbeta1=-3.3121
         altbeta2=-3.33254
         altbeta3=-3.63217
@@ -46,9 +45,9 @@ def Durbin_watson(anlamlilik, bagimsizd, gozlem):
         ustbeta2=4.017121
         ustbeta3=-0.17134
         ustbeta4=28.01835
-        dw1 = float(2 + (altbeta1/(gozlems**0.5)) + (altbeta2/gozlems) + (altbeta3/(gozlems**1.5)) +(altbeta4/(gozlems**2)))
-        dw2 = float(2 + (ustbeta1/(gozlems**0.5)) + (ustbeta2/gozlems) + (ustbeta3/(gozlems**1.5)) +(ustbeta4/(gozlems**2)))
-    elif anlamlilik == 5 and bagimsizd ==5 and gozlems > 0:
+        dw1 = float(2 + (altbeta1/(gozlemsayisi**0.5)) + (altbeta2/gozlemsayisi) + (altbeta3/(gozlemsayisi**1.5)) +(altbeta4/(gozlemsayisi**2)))
+        dw2 = float(2 + (ustbeta1/(gozlemsayisi**0.5)) + (ustbeta2/gozlemsayisi) + (ustbeta3/(gozlemsayisi**1.5)) +(ustbeta4/(gozlemsayisi**2)))
+    elif anlamlilik == 5 and bagimsizdegisken ==5 and gozlemsayisi > 0:
         altbeta1=-3.53533
         altbeta2=-4.08519
         altbeta3=-47.6365
@@ -57,9 +56,9 @@ def Durbin_watson(anlamlilik, bagimsizd, gozlem):
         ustbeta2=2.831871
         ustbeta3=40.52079
         ustbeta4=17.67699
-        dw1 = float(2 + (altbeta1/(gozlems**0.5)) + (altbeta2/gozlems) + (altbeta3/(gozlems**1.5)) +(altbeta4/(gozlems**2)))
-        dw2 = float(2 + (ustbeta1/(gozlems**0.5)) + (ustbeta2/gozlems) + (ustbeta3/(gozlems**1.5)) +(ustbeta4/(gozlems**2)))
-    elif anlamlilik == 1 and bagimsizd ==1 and gozlems > 0:
+        dw1 = float(2 + (altbeta1/(gozlemsayisi**0.5)) + (altbeta2/gozlemsayisi) + (altbeta3/(gozlemsayisi**1.5)) +(altbeta4/(gozlemsayisi**2)))
+        dw2 = float(2 + (ustbeta1/(gozlemsayisi**0.5)) + (ustbeta2/gozlemsayisi) + (ustbeta3/(gozlemsayisi**1.5)) +(ustbeta4/(gozlemsayisi**2)))
+    elif anlamlilik == 1 and bagimsizdegisken ==1 and gozlemsayisi > 0:
         altbeta1=-4.65899
         altbeta2=-1.91795
         altbeta3=6.992628
@@ -68,9 +67,9 @@ def Durbin_watson(anlamlilik, bagimsizd, gozlem):
         ustbeta2=5.814534
         ustbeta3=-13.5426
         ustbeta4=38.75486
-        dw1 = float(2 + (altbeta1/(gozlems**0.5)) + (altbeta2/gozlems) + (altbeta3/(gozlems**1.5)) +(altbeta4/(gozlems**2)))
-        dw2 = float(2 + (ustbeta1/(gozlems**0.5)) + (ustbeta2/gozlems) + (ustbeta3/(gozlems**1.5)) +(ustbeta4/(gozlems**2)))
-    elif anlamlilik == 1 and bagimsizd ==2 and gozlems > 0:
+        dw1 = float(2 + (altbeta1/(gozlemsayisi**0.5)) + (altbeta2/gozlemsayisi) + (altbeta3/(gozlemsayisi**1.5)) +(altbeta4/(gozlemsayisi**2)))
+        dw2 = float(2 + (ustbeta1/(gozlemsayisi**0.5)) + (ustbeta2/gozlemsayisi) + (ustbeta3/(gozlemsayisi**1.5)) +(ustbeta4/(gozlemsayisi**2)))
+    elif anlamlilik == 1 and bagimsizdegisken ==2 and gozlemsayisi > 0:
         altbeta1=-4.64292
         altbeta2=-4.05298
         altbeta3=5.966592
@@ -79,9 +78,9 @@ def Durbin_watson(anlamlilik, bagimsizd, gozlem):
         ustbeta2=10.07143
         ustbeta3=-29.2779
         ustbeta4=82.95705
-        dw1 = float(2 + (altbeta1/(gozlems**0.5)) + (altbeta2/gozlems) + (altbeta3/(gozlems**1.5)) +(altbeta4/(gozlems**2)))
-        dw2 = float(2 + (ustbeta1/(gozlems**0.5)) + (ustbeta2/gozlems) + (ustbeta3/(gozlems**1.5)) +(ustbeta4/(gozlems**2)))   
-    elif anlamlilik == 1 and bagimsizd ==3 and gozlems > 0:
+        dw1 = float(2 + (altbeta1/(gozlemsayisi**0.5)) + (altbeta2/gozlemsayisi) + (altbeta3/(gozlemsayisi**1.5)) +(altbeta4/(gozlemsayisi**2)))
+        dw2 = float(2 + (ustbeta1/(gozlemsayisi**0.5)) + (ustbeta2/gozlemsayisi) + (ustbeta3/(gozlemsayisi**1.5)) +(ustbeta4/(gozlemsayisi**2)))   
+    elif anlamlilik == 1 and bagimsizdegisken ==3 and gozlemsayisi > 0:
         altbeta1=-4.64318
         altbeta2=-5.82505
         altbeta3=1.825873
@@ -90,9 +89,9 @@ def Durbin_watson(anlamlilik, bagimsizd, gozlem):
         ustbeta2=12.71578
         ustbeta3=-37.0259
         ustbeta4=122.0812
-        dw1 = float(2 + (altbeta1/(gozlems**0.5)) + (altbeta2/gozlems) + (altbeta3/(gozlems**1.5)) +(altbeta4/(gozlems**2)))
-        dw2 = float(2 + (ustbeta1/(gozlems**0.5)) + (ustbeta2/gozlems) + (ustbeta3/(gozlems**1.5)) +(ustbeta4/(gozlems**2)))
-    elif anlamlilik == 1 and bagimsizd ==4 and gozlems > 0:
+        dw1 = float(2 + (altbeta1/(gozlemsayisi**0.5)) + (altbeta2/gozlemsayisi) + (altbeta3/(gozlemsayisi**1.5)) +(altbeta4/(gozlemsayisi**2)))
+        dw2 = float(2 + (ustbeta1/(gozlemsayisi**0.5)) + (ustbeta2/gozlemsayisi) + (ustbeta3/(gozlemsayisi**1.5)) +(ustbeta4/(gozlemsayisi**2)))
+    elif anlamlilik == 1 and bagimsizdegisken ==4 and gozlemsayisi > 0:
         altbeta1=-4.65507
         altbeta2=-7.29607
         altbeta3=-5.30044
@@ -101,9 +100,9 @@ def Durbin_watson(anlamlilik, bagimsizd, gozlem):
         ustbeta2=13.54419
         ustbeta3=-34.1517
         ustbeta4=147.8301
-        dw1 = float(2 + (altbeta1/(gozlems**0.5)) + (altbeta2/gozlems) + (altbeta3/(gozlems**1.5)) +(altbeta4/(gozlems**2)))
-        dw2 = float(2 + (ustbeta1/(gozlems**0.5)) + (ustbeta2/gozlems) + (ustbeta3/(gozlems**1.5)) +(ustbeta4/(gozlems**2)))
-    elif anlamlilik == 1 and bagimsizd ==5 and gozlems > 0:
+        dw1 = float(2 + (altbeta1/(gozlemsayisi**0.5)) + (altbeta2/gozlemsayisi) + (altbeta3/(gozlemsayisi**1.5)) +(altbeta4/(gozlemsayisi**2)))
+        dw2 = float(2 + (ustbeta1/(gozlemsayisi**0.5)) + (ustbeta2/gozlemsayisi) + (ustbeta3/(gozlemsayisi**1.5)) +(ustbeta4/(gozlemsayisi**2)))
+    elif anlamlilik == 1 and bagimsizdegisken ==5 and gozlemsayisi > 0:
         altbeta1=-4.67504
         altbeta2=-8.51891
         altbeta3=-15.2571
@@ -112,8 +111,8 @@ def Durbin_watson(anlamlilik, bagimsizd, gozlem):
         ustbeta2=12.55718
         ustbeta3=-19.3902
         ustbeta4=154.4401
-        dw1 = float(2 + (altbeta1/(gozlems**0.5)) + (altbeta2/gozlems) + (altbeta3/(gozlems**1.5)) +(altbeta4/(gozlems**2)))
-        dw2 = float(2 + (ustbeta1/(gozlems**0.5)) + (ustbeta2/gozlems) + (ustbeta3/(gozlems**1.5)) +(ustbeta4/(gozlems**2)))
+        dw1 = float(2 + (altbeta1/(gozlemsayisi**0.5)) + (altbeta2/gozlemsayisi) + (altbeta3/(gozlemsayisi**1.5)) +(altbeta4/(gozlemsayisi**2)))
+        dw2 = float(2 + (ustbeta1/(gozlemsayisi**0.5)) + (ustbeta2/gozlemsayisi) + (ustbeta3/(gozlemsayisi**1.5)) +(ustbeta4/(gozlemsayisi**2)))
     else:
         print("Hatalı değer girilmiştir, program sonlandırılıyor...")
     
@@ -121,7 +120,7 @@ def Durbin_watson(anlamlilik, bagimsizd, gozlem):
     
 print("Durbin-Watson otokorelasyon testinin kritik değerlerini elde etmek için istenen değerleri giriniz:")
 anlamlilik = int(input("Anlamlılık Düzeyi (1 ya da 5): "))
-bagimsiz = int(input("Bağımsız Değişken Sayısı (1 - 5 arası): "))
-gozlems = int(input("Gözlem Sayısı: "))
+bagimsizdegisken = int(input("Bağımsız Değişken Sayısı (1 - 5 arası): "))
+gozlemsayisi = int(input("Gözlem Sayısı: "))
 
-Durbin_watson(anlamlilik, bagimsiz, gozlems)
+Durbin_watson(anlamlilik, bagimsizdegisken, gozlemsayisi)
