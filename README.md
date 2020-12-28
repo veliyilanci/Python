@@ -21,4 +21,6 @@ Bu sayfada Python ile yaptığım bazı basit uygulamalar bulunuyor. Özellikle 
 
 <b>Sayı_Tahmin.py:</b> Bu kod, 1 ile 100 arasında elde edilen rassal sayının kullanıcı tarafından tahmin edilemesine dayanmaktadır. Tahmin hakkı beştir.
 
+<b>Tahminim.py</b> Bu kod 1 ile 100 arasında aklınızdan tuttuğunuz sayının ne olduğunu tahmin etmektedir.
+
 <b>Vücut_Kitle.py:</b> Bu kod ile cm cinsinden girilen boy uzunluğu ve kg cinsinden tanımlanan vücut ağırlığı kullanılarak, kullanıcının vücut kitle indeksi hesaplanır.
